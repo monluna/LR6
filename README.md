@@ -70,3 +70,8 @@ git add .
 git commit -m "Добавлены скриншоты"
 git add README.md
 git commit -m "Добавлены скриншоты работы"
+git add README.md
+git commit -m "Добавлены лог команд"
+git log --pretty=format:"%h, %cd, %an, %s"
+# История операция
+![История операций](/imades/14.png)
